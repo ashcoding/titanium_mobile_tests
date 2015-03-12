@@ -50,7 +50,7 @@ install:
 
 script:
 
- - $TRAVIS_USER/tio2/bin/tio2 ./ --platform ios
+ - # $TRAVIS_USER/tio2/bin/tio2 ./ --platform ios
 
  - curl -o android_wait_for_emulator.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/android_wait_for_emulator.sh
  - source android_wait_for_emulator.sh
